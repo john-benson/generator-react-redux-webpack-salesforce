@@ -1,0 +1,25 @@
+.item-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .item {
+
+    height: 75px;
+    padding: 5px;
+    margin: 5px 0;
+    margin-right: 5px;
+    flex: 1 0;
+    border: 1px solid green;
+    border-radius: 3px;
+
+    .name {
+
+    }
+
+    .header {
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+  }
+}
